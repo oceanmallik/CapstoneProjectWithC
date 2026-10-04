@@ -1,2 +1,9 @@
-*.exe
-*.o
+// First we will ignore all files in this project
+*
+
+// Now we will unignore all the c files in the project
+!*.c
+
+// Also unignore other files
+!*.gitignore
+!*.md
